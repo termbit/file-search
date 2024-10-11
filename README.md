@@ -2,6 +2,6 @@
 
 Search text by file
 
-**An innovative product for searching text in a file
+**An innovative product for searching text in a file**
 
-Made with FLTK**
+***Made with FLTK***
