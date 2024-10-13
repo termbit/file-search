@@ -65,13 +65,13 @@ void find_in_file(Fl_Widget* widget, void* data) {
 
 int main(int argc, char **argv) {
 
-	Fl_Window *window = new Fl_Window(500,500, "Search in a file");
-	Fl_Button *button = new Fl_Button(185, 90, 120, 30, "Choose a file");
+	Fl_Window *window = new Fl_Window(500,300, "Search in a file");
+	Fl_Button *button = new Fl_Button(190, 90, 120, 30, "Choose a file");
 	button->callback(file_chooser);
 	
 	Fl_Input *text_to_find = new Fl_Input(150, 140, 200, 30, "Text for find: ");
 
-	Fl_Button *find_button = new Fl_Button(200, 250, 80, 30, "SEARCH");
+	Fl_Button *find_button = new Fl_Button(210, 220, 80, 30, "SEARCH");
 	find_button->callback(find_in_file, text_to_find);
 
 
